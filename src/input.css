@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: "MTDPalominoScript";
+      font-weight: 700;
+      src: url('/font/MTDPalominoScript.otf') format('otf');
+    }
+}
+
+@layer utilities {
+    .custom-container {
+        background-image: url("../img/image.png");
+    }
+
+    .layout-1{
+        left: -5.73%;
+        top: -8.98%;
+    }
+    .layout-2{     
+        right: 14.58%;
+    }
+    .layout-3{
+        right: 43.07%;
+        bottom: 15.37%;
+
+    }
+    .layout-4{
+        right: 26.25%;
+        top: 5.28%;
+
+    }
+    .layout-5{
+        left: 5.31%;
+        bottom: 28.61%;
+
+    }
+    .layout-6{
+        right: 20.5%;
+        bottom: 24.06%;
+    }
+    .layout-7{
+        left: -2.14%;
+        bottom: 26.68%;
+    }
+    .layout-8{
+        right: -6.6%;
+        bottom: -8.27%;
+    }
+    .layout-9{
+        right: -0.39%;
+        top: -3.7%;
+    }
+    .layout-10{
+        /* font-family: 'MTDPalominoScript'; */
+
+    }
+    .layout-11{
+        font-family: 'Archivo Narrow', sans-serif;
+    }
+    .overlay{
+        background: linear-gradient(180deg, #5B85B7 0%, rgba(91, 133, 183, 0) 36%);
+    }
+   
+    @import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@700&display=swap');
+
+  }
